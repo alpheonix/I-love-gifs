@@ -1,0 +1,59 @@
+{
+    "short_name": "gif",
+    "name": "I love gif",
+    "description": "Cet appli est une appli de gif ",
+    "icons": [
+    {
+    "src": "assets/images/icon-192x192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+    }, 
+    {
+        "src": "assets/images/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+        }
+
+    ],
+    "orientation":"portrait-primary",
+    "start_url": "/?source=pwa",
+    "background_color": "#f44336",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#f44336",
+    "shortcuts": [
+    {
+    "name": "I love gif search",
+    "short_name": "search",
+    "description": "ceci est la recherche ",
+    "url": "/search?source=pwa",
+    "icons": [ {
+        "src": "assets/images/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+        }, 
+        {
+            "src": "assets/images/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+            }]
+    },
+    {
+        "name": "I love gif fav",
+        "short_name": "favourite",
+        "description": "ceci est la recherche ",
+        "url": "/saved?source=pwa",
+        "icons": [ {
+            "src": "assets/images/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+            }, 
+            {
+                "src": "assets/images/icon-512x512.png",
+                "type": "image/png",
+                "sizes": "512x512"
+                }]
+        }
+ 
+    ]
+   }
